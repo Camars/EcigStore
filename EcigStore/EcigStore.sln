@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcigStore", "EcigStore\EcigStore.csproj", "{66BD873A-BCA3-443F-81D9-196A2CA02721}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{C73679DB-2763-4D97-9A06-B1866846A374}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{FC6DF2A6-7DB4-4CF5-AB9F-988AF49B3FE0}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\EcigStore-WAWS-dev.json = PublishScripts\Configurations\EcigStore-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66BD873A-BCA3-443F-81D9-196A2CA02721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BD873A-BCA3-443F-81D9-196A2CA02721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BD873A-BCA3-443F-81D9-196A2CA02721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BD873A-BCA3-443F-81D9-196A2CA02721}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC6DF2A6-7DB4-4CF5-AB9F-988AF49B3FE0} = {C73679DB-2763-4D97-9A06-B1866846A374}
+	EndGlobalSection
+EndGlobal

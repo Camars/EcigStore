@@ -1,0 +1,123 @@
+
+body {
+    background-image:url("../images/Ecigbackground1.png");
+    margin-left: auto;
+    margin-right: auto;
+    width: 830px;
+    
+}
+td {
+    color: #000000;
+    font: 11px Arial,Helvetica,sans-serif;
+}
+a {
+    color: #796E8C;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: #EDDD87;
+}
+h1 {
+    color: #000000;
+    text-align: center;
+}
+h2 {
+    color: yellow;
+    font-size: 20pt;
+}
+h3 {
+    color: #00FF00;
+    font-size: 18pt;
+}
+h4 {
+    color: #253813;
+    font-size: 16pt;
+}
+#navigation a {
+    border-right: 1px solid #EDCE21;
+    color: #EDDD87;
+    display: block;
+    font: 10px/16px Arial,Helvetica,sans-serif;
+    letter-spacing: 0.1em;
+    padding: 0 10px;
+    text-decoration: none;
+}
+#navigation a:hover {
+    background: none repeat scroll 0 0 #EDCE21;
+    color: #3F138C;
+}
+#padding {
+    padding: 14px;
+}
+#calendar td {
+    border: 1px solid #26354A;
+}
+#noborder td {
+    border: 0 none;
+}
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 830px;
+}
+.logo {
+    color: #FFBA00;
+    font: 24px/26px Times New Roman,Times,serif;
+    letter-spacing: 0.3em;
+}
+.header {
+    color: #EDCE21;
+    font: 24px/26px Arial,Helvetica,sans-serif;
+    letter-spacing: 0.3em;
+}
+.para {
+    color: #000000;
+    font: 12px/16px Arial,Helvetica,sans-serif;
+    letter-spacing: 0.1em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.alert {
+    color: red;
+}
+.indented {
+    color: #000000;
+    font: 12px/16px Arial,Helvetica,sans-serif;
+    padding-left: 50pt;
+    padding-right: 50pt;
+}
+div#menucontainer {
+    background: -moz-linear-gradient(center top , #B04146 0%, #711A1E 100%) repeat scroll 0 0 transparent;
+}
+ul#menu {
+    font-size: 1.2em;
+    margin: 0;
+}
+ul#menu li {
+    display: inline;
+    list-style: none outside none;
+}
+ul#menu li a {
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1.8em;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+ul#menu li a:hover {
+    background-color: #D54D53;
+    bottom: -10px;
+    line-height: 1.8em;
+    text-decoration: none;
+}
+ul#menu li a:active {
+    background-color: #A6E2A6;
+    line-height: 1.8em;
+    text-decoration: none;
+}
+ul#menu li.selected a {
+    background-color: red;
+    color: #000000;
+    line-height: 1.8em;
+}
